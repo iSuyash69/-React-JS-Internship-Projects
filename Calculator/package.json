@@ -1,0 +1,20 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "first React js project ",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest"
+  },
+  "author": "suyash deshpande",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
