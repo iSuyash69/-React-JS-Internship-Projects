@@ -1,3 +1,4 @@
-# Sync Intern's React JS Developer Internship Projects
+# React JS Projects
 
 1.Calculator using React JS 
+2.CRUD in ReactJS
