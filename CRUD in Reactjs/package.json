@@ -1,20 +1,24 @@
 {
-  "name": "calculator",
+  "name": "crud-in-reactjs",
   "version": "1.0.0",
-  "description": "first React js project ",
+  "description": "performing crud operations in react js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "jest"
   },
-  "author": "suyash deshpande",
+  "author": "Suyash Deshpande",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-toastify": "^9.1.3"
   }
 }

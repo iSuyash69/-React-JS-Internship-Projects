@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Body=()=>{
-    const [Input,setInput]=useState("");
+    const [Input,setInput]=useState("Hello");
 
     const mainButtons={
         color:"#87ceeb"
@@ -18,7 +18,7 @@ const Body=()=>{
     const btnClickEvent=(event)=>{
         const currentBtn=event.target.innerText;
         console.log(currentBtn);
-        if(Input=="Error"){
+        if(Input=="❤️DE" || Input=="Hello"){
             setInput(currentBtn);
         }
         else if(Input!=""){
@@ -45,7 +45,7 @@ const Body=()=>{
             setInput(finalOutput.toString());
         }
         catch(error){
-            setInput("Error");
+            setInput("❤️DE");
         }
     } 
 
